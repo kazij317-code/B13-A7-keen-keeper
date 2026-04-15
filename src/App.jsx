@@ -1,13 +1,15 @@
-
 import './App.css'
-
+import {HashRouter} from "react-router-dom";
+import Navbar from "../../New folder/src/components/Navbar";
 
 function App() {
   return (
-    <div className="bg-blue-300 text-red-600 text-center">
-      Hello Start My Project
-    </div>
-   
+  
+    <HashRouter>
+      <div>
+        <Navbar/>
+      </div>
+    </HashRouter>
   );
 }
 
