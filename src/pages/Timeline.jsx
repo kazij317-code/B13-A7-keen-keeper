@@ -35,9 +35,9 @@ const Timeline = () => {
 
   const getIcon = (type) => {
 
-    if (type === 'Text') return <img src={imageText} alt="text" className="w-8 h-8" />; 
-    if (type === 'Call') return <img src={imageCall} alt="call" className="w-8 h-8" />; 
-    return <img src={imageVideo} alt="video" className="w-8 h-8" /> 
+    if (type === 'Text') return <img src={imageText} alt="text" className="w-8 h-8" />;
+    if (type === 'Call') return <img src={imageCall} alt="call" className="w-8 h-8" />;
+    return <img src={imageVideo} alt="video" className="w-8 h-8" />
   };
 
   return (
@@ -45,12 +45,12 @@ const Timeline = () => {
       <div className="justify-between items-center mb-8">
         <h2 className="text-[48px] font-bold">Timeline</h2>
 
-        <div className="flex flex-col md:flex-row md:items-center gap-3 md:gap-12 border px-3 py-2 text-sm font-bold">
+        <div className="flex flex-col md:flex-row md:items-center gap-3 md:gap-8 border-3 rounded-lg border-gray-400 px-3 py-2 text-sm font-bold">
           {/* Filter */}
           <select
             value={filter}
             onChange={(e) => setFilter(e.target.value)}
-            className="outline-none w-full md:w-auto"
+            className="bg-gray-300 outline-none border border-gray-400 rounded-lg px-2 py-1 md:w-auto"
           >
             <option value="All">Filter timeline</option>
             <option value="Text">Texts</option>
@@ -58,7 +58,28 @@ const Timeline = () => {
             <option value="Video">Videos</option>
           </select>
 
+          {/* Search */}
+          <input
+            type="text"
+            placeholder="Search by friend name or interaction type"
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+            className="bg-gray-300 outline-none border border-gray-400 rounded-lg px-2 py-1 w-full md:flex-1 text-sm"
+          />
+
+          {/* Sort */}
+          <select
+            value={sortOrder}
+            onChange={(e) => setSortOrder(e.target.value)}
+            className="bg-gray-300 outline-none border border-gray-400 rounded-lg px-2 py-1 w-full md:w-auto"
+          >
+            <option value="newest">Newest</option>
+            <option value="oldest">Oldest</option>
+          </select>
+
+
         </div>
+        
 
       </div>
 
