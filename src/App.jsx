@@ -4,18 +4,20 @@ import Navbar from "../../New folder/src/components/Navbar";
 import { HashRouter, Route, Routes } from 'react-router-dom';
 import Footer from './components/Footer';
 import Home from './pages/Home';
+import FriendDetails from "./pages/FriendDetails";
 
 function App() {
   return (
-  
+
     <HashRouter>
       <div>
-        <Navbar/>
+        <Navbar />
         <Routes>
-          <Route path="/" element={<Home/>}/>
+          <Route path="/" element={<Home />} />
+          <Route path="/friend/:id" element={<FriendDetails />} />
         </Routes>
-        <Footer/>
-        
+        <Footer />
+
       </div>
 
     </HashRouter>
