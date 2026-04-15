@@ -1,6 +1,7 @@
 import './App.css'
-import {HashRouter} from "react-router-dom";
+
 import Navbar from "../../New folder/src/components/Navbar";
+import { HashRouter } from 'react-router-dom';
 
 function App() {
   return (
