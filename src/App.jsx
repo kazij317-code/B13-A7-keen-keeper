@@ -1,8 +1,9 @@
 import './App.css'
 
 import Navbar from "../../New folder/src/components/Navbar";
-import { HashRouter } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import Footer from './components/Footer';
+import Home from './pages/Home';
 
 function App() {
   return (
@@ -10,7 +11,11 @@ function App() {
     <HashRouter>
       <div>
         <Navbar/>
+        <Routes>
+          <Route path="/" element={<Home/>}/>
+        </Routes>
         <Footer/>
+        
       </div>
 
     </HashRouter>
