@@ -1,0 +1,124 @@
+[
+  {
+    "id": 1,
+    "name": "Sarah Jenkins",
+    "picture": "https://i.pravatar.cc/150?u=sarah",
+    "email": "sarah.j@example.com",
+    "days_since_contact": 15,
+    "status": "Almost Due",
+    "tags": ["College", "Best Friend"],
+    "bio": "Met during Freshman year. We share a love for vintage cameras and indie rock.",
+    "goal": 7,
+    "next_due_date": "April 10, 2025"
+  },
+  {
+    "id": 2,
+    "name": "Elena Rodriguez",
+    "picture": "https://i.pravatar.cc/150?u=elena",
+    "email": "elena.rod@gmail.com",
+    "days_since_contact": 9,
+    "status": "Overdue",
+    "tags": ["FAMILY"],
+    "bio": "Hiking partner and fitness enthusiast. We usually meet up for weekend trails.",
+    "goal": 10,
+    "next_due_date": "April 14, 2025"
+  },
+  {
+    "id": 3,
+    "name": "Marcus Chen",
+    "picture": "https://i.pravatar.cc/150?u=marcus",
+    "email": "m.chen@workplace.com",
+    "days_since_contact": 2,
+    "status": "Overdue",
+    "tags": ["WORK"],
+    "bio": "Former teammate at the startup. Always has the best book recommendations.",
+    "goal": 14,
+    "next_due_date": "April 25, 2025"
+  },
+  {
+    "id": 4,
+    "name": "Jordan Smith",
+    "picture": "https://i.pravatar.cc/150?u=jordan",
+    "email": "jsmith@freemail.com",
+    "days_since_contact": 12,
+    "status": "Overdue",
+    "tags": ["HOBBY", "TRAVEL"],
+    "bio": "Met through an MMO five years ago. Great strategist and funny guy.",
+    "goal": 14,
+    "next_due_date": "April 16, 2025"
+  },
+  {
+    "id": 5,
+    "name": "Aisha Khan",
+    "picture": "https://i.pravatar.cc/150?u=aisha",
+    "email": "aisha.k@creative.co",
+    "days_since_contact": 1,
+    "status": "Overdue",
+    "tags": ["Design", "Art"],
+    "bio": "A brilliant illustrator. We often collaborate on small side projects.",
+    "goal": 7,
+    "next_due_date": "April 20, 2025"
+  },
+  {
+    "id": 6,
+    "name": "Sophie Martin",
+    "picture": "https://i.pravatar.cc/150?u=sophie",
+    "email": "smartin@cuisine.com",
+     "days_since_contact": 3,
+    "status": "On-Track",
+    "tags": ["FAMILY"],
+    "bio": "My neighbor who makes the best sourdough. We exchange recipes weekly.",
+    "goal": 7,
+    "next_due_date": "April 22, 2025"
+  },
+  {
+    "id": 7,
+    "name": "Daniel Kim",
+    "picture": "https://i.pravatar.cc/150?u=daniel",
+    "email": "dkim@techcorp.com",
+    "days_since_contact": 18,
+    "status": "On-Track",
+     "tags": ["Work", "Mentor"],
+    "bio": "Gave me my first break in the industry. Incredible mentor and friend.",
+    "goal": 21,
+    "next_due_date": "April 17, 2025"
+  },
+  {
+    "id": 8,
+    "name": "Tom Baker",
+    "picture": "https://i.pravatar.cc/150?u=tom",
+    "email": "tbaker@sports.net",
+    "days_since_contact": 25,
+    "status": "Almost Due",
+    "tags": ["HOBBY", "TRAVEL"],
+    "bio": "Co-captain of our Sunday league team. Really reliable on and off the field.",
+    "goal": 14,
+    "next_due_date": "April 1, 2025"
+  },
+  {
+    "id": 9,
+    "name": "David Wilson",
+    "picture": "https://i.pravatar.cc/150?u=david",
+    "email": "david.w@outlook.com",
+     "days_since_contact": 30,
+    "status": "Almost Due",
+    "tags": ["WORK"],
+    "bio": "Grew up in the same neighborhood. He's more like a brother than a friend.",
+    "goal": 20,
+    "next_due_date": "March 15, 2025"
+  },
+  
+  
+  {
+    "id": 10,
+    "name": "Priya Sharma",
+    "picture": "https://i.pravatar.cc/150?u=priya",
+    "email": "priya.sharma@uni.edu",
+    "days_since_contact": 5,
+    "status": "Overdue",
+    "tags": ["Research", "College"],
+    "bio": "Lab partner from Biology. She is currently pursuing her PhD in Genetics.",
+    "goal": 30,
+    "next_due_date": "May 10, 2025"
+  }
+]
