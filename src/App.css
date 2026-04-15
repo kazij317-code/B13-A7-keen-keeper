@@ -1,0 +1,13 @@
+/* font integration */
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
+
+/* tailwind */
+@import "tailwindcss";
+
+/* daisyUI */
+@plugin "daisyui";
+
+
+@theme {
+  --font-sans: "Geist", sans-serif;
+}
