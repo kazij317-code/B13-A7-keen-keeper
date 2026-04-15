@@ -46,6 +46,7 @@ const Timeline = () => {
         <h2 className="text-[48px] font-bold">Timeline</h2>
 
         <div className="flex flex-col md:flex-row md:items-center gap-3 md:gap-8 border-3 rounded-lg border-gray-400 px-3 py-2 text-sm font-bold">
+          
           {/* Filter */}
           <select
             value={filter}
@@ -76,7 +77,6 @@ const Timeline = () => {
             <option value="newest">Newest</option>
             <option value="oldest">Oldest</option>
           </select>
-
 
         </div>
         
