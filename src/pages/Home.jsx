@@ -42,7 +42,7 @@ const Home = () => {
           <StatCard label="Interactions This Month" value={12} />
         </div>
 
-        <div className="border-t-1 border-gray-400 pt-7 mb-3 font-semibold text-2xl">
+        <div className="border-t border-gray-300 pt-7 mb-3 font-semibold text-2xl">
           Your Friends
         </div>
 
@@ -57,7 +57,7 @@ const Home = () => {
   };
 
   const StatCard = ({ label, value }) => (
-    <div className="bg-white p-5 rounded-[8px] border border-gray-100 shadow-sm items-center gap-4">
+    <div className="bg-white p-5 rounded-lg border-2 border-gray-200 items-center gap-4">
 
       <div className="text-center">
         <p className="text-[32px] font-semibold text-[#244D3F]">{value}</p>

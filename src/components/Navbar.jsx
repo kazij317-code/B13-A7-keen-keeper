@@ -11,7 +11,7 @@ const Navbar = () => {
       : "text-gray-600 hover:text-gray-900 px-3 py-2 md:px-4 flex items-center gap-2 transition-all";
 
   return (
-    <nav className="flex flex-col md:flex-row justify-between items-center p-4 shadow border-b-1 border-gray-200 bg-white gap-4 md:gap-0 sticky top-0 z-50">
+    <nav className="flex flex-col md:flex-row justify-between items-center py-4 px-15 shadow border-b border-gray-200 bg-white gap-4 md:gap-0 sticky top-0 z-50">
       {/* Logo */}
       <h1 className="text-[24px]"><span className="font-extrabold">Keen</span><span className="font-semibold text-[#244D3F]">Keeper</span></h1>
 

@@ -18,7 +18,7 @@ const Stats = () => {
     <div className="max-w-4xl mx-auto p-6">
       <h2 className="text-[48px] font-bold mb-8">Friendship Analytics</h2>
       
-      <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-100">
+      <div className="bg-white p-8 rounded-xl border-2 border-gray-200">
         <h3 className="text-xl font-medium mb-6 text-[#244D3F]">By Interaction Type</h3>
         {data.length > 0 ? (
           <div className="h-80">

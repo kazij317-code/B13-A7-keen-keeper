@@ -45,7 +45,7 @@ const Timeline = () => {
       <div className="justify-between items-center mb-8">
         <h2 className="text-[48px] font-bold">Timeline</h2>
 
-        <div className="flex flex-col md:flex-row md:items-center gap-3 md:gap-8 border-3 rounded-lg border-gray-400 px-3 py-2 text-sm font-bold">
+        <div className="flex flex-col md:flex-row md:items-center gap-3 md:gap-8 border-2 rounded-lg border-gray-300 px-3 py-2 text-sm font-bold">
           
           {/* Filter */}
           <select
@@ -85,7 +85,7 @@ const Timeline = () => {
 
       <div className="space-y-4">
         {filteredHistory.length > 0 ? filteredHistory.map(item => (
-          <div key={item.id} className="bg-white p-5 shadow-sm rounded-lg border border-gray-100 flex items-center gap-5">
+          <div key={item.id} className="bg-white p-5 rounded-lg border-2 border-gray-200 flex items-center gap-5">
             <div className="">{getIcon(item.type)}</div>
             <div>
               <h4 className="font-medium text-[#244D3F] text-[20px]">{item.title}</h4>

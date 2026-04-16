@@ -43,7 +43,7 @@ const FriendDetails = () => {
     <div className="max-w-6xl mx-auto p-6 grid grid-cols-1 lg:grid-cols-12 gap-8">
       {/* Left Column */}
       <div className="lg:col-span-4 space-y-6">
-        <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 text-center">
+        <div className="bg-white p-6 rounded-xl border-2 border-gray-200 text-center">
           <img src={friend.picture} alt={friend.name} className="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-emerald-50 object-cover" />
           <h2 className="text-[20px] font-semibold">{friend.name}</h2>
 
@@ -62,7 +62,7 @@ const FriendDetails = () => {
         </div>
 
         <div className="space-y-3">
-          <button className="w-full py-3 bg-gray-50 rounded-lg flex items-center justify-center gap-2 hover:bg-gray-100 transition font-medium">
+          <button className="border-2 border-gray-200 w-full py-3 bg-gray-50 rounded-lg flex items-center justify-center gap-2 hover:bg-gray-100 transition font-medium">
          
 
             <img src={imageBell} alt="bell" className="w-5 h-5 md:w-5 md:h-5" />
@@ -70,8 +70,8 @@ const FriendDetails = () => {
             Snooze 2 Weeks
           </button>
 
-          <button className="w-full py-3 bg-gray-50 font-medium rounded-lg flex items-center justify-center gap-2 hover:bg-gray-100 transition"><Archive size={18} /> Archive</button>
-          <button className="w-full py-3 bg-gray-50 text-red-600 rounded-lg flex items-center justify-center gap-2 hover:bg-red-100 transition"><Trash2 size={18} /> Delete</button>
+          <button className="border-2 border-gray-200 w-full py-3 bg-gray-50 font-medium rounded-lg flex items-center justify-center gap-2 hover:bg-gray-100 transition"><Archive size={18} /> Archive</button>
+          <button className="border-2 border-gray-200 w-full py-3 bg-gray-50 text-red-600 rounded-lg flex items-center justify-center gap-2 hover:bg-red-100 transition"><Trash2 size={18} /> Delete</button>
         </div>
 
       </div>
@@ -85,7 +85,7 @@ const FriendDetails = () => {
           <StatMini label="Next Due" value={friend.next_due_date} />
         </div>
 
-        <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 flex justify-between items-center">
+        <div className="bg-white p-6 rounded-xl border-2 border-gray-200 flex justify-between items-center">
           <div>
             <h4 className="text-[#244D3F] text-[20px] font-medium mb-1">Relationship Goal</h4>
             <p className="text-[18px]"><span className="text-[#64748B]">Connect every</span><span className="font-bold"> {friend.goal} days</span></p>
@@ -97,15 +97,15 @@ const FriendDetails = () => {
           </button>
         </div>
 
-        <div className="p-8 rounded-xl bg-white">
+        <div className="p-8 rounded-xl bg-white border-2 border-gray-200">
           <h4 className="text-[20px] font-medium text-[#244D3F] mb-6">Quick Check-In</h4>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
            
-            <CheckInBtn icon={<img src={imagePhone} alt="phone" className="w-[32px] h-[32px]" />} label="Call" onClick={() => handleInteraction('Call')} />
+            <CheckInBtn icon={<img src={imagePhone} alt="phone" className="w-8 h-8" />} label="Call" onClick={() => handleInteraction('Call')} />
             
-            <CheckInBtn icon={<img src={imageText} alt="text" className="w-[32px] h-[32px]" />} label="Text" onClick={() => handleInteraction('Text')} />
+            <CheckInBtn icon={<img src={imageText} alt="text" className="w-8 h-8" />} label="Text" onClick={() => handleInteraction('Text')} />
            
-            <CheckInBtn icon={<img src={imageVideo} alt="video" className="w-[32px] h-[32px]" />} label="Video" onClick={() => handleInteraction('Video')} />
+            <CheckInBtn icon={<img src={imageVideo} alt="video" className="w-8 h-8" />} label="Video" onClick={() => handleInteraction('Video')} />
           </div>
         </div>
 
@@ -127,15 +127,15 @@ const RecentInteractions = ({ friendName }) => {
 
   const getIcon = (type) => {
    
-    if (type === 'Call') return <img src={imagePhone} alt="phone" className="w-[32px] h-[32px]" />;
+    if (type === 'Call') return <img src={imagePhone} alt="phone" className="w-8 h-8" />;
     
-    if (type === 'Video') return <img src={imageVideo} alt="video" className="w-[32px] h-[32px]" />;
+    if (type === 'Video') return <img src={imageVideo} alt="video" className="w-8 h-8" />;
    
-    return <img src={imageText} alt="text" className="w-[32px] h-[32px]" />;
+    return <img src={imageText} alt="text" className="w-8 h-8" />;
   };
 
   return (
-    <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+    <div className="bg-white p-6 rounded-xl border-2 border-gray-200">
       <div className="flex justify-between items-center mb-6">
         <h4 className="font-medium text-[#244D3F] text-[20px]">Recent Interactions</h4>
         <button className="flex items-center gap-1 hover:text-emerald-600 transition px-5 py-2 bg-[#E9E9E9] font-medium text-[14px] border-2 border-gray-300 rounded-lg">
@@ -166,14 +166,14 @@ const RecentInteractions = ({ friendName }) => {
 };
 
 const StatMini = ({ label, value }) => (
-  <div className="bg-white p-4 rounded-xl border border-gray-100 shadow-sm text-center">
+  <div className="bg-white p-4 rounded-xl border-2 border-gray-200 text-center">
     <p className="text-[28px] font-semibold text-[#244D3F]">{value}</p>
     <p className="text-[18px] text-[#64748B] mb-1">{label}</p>
   </div>
 );
 
 const CheckInBtn = ({ icon, label, onClick }) => (
-  <button onClick={onClick} className="flex flex-col items-center gap-2 bg-[#E9E9E9]/50  hover:bg-[#E9E9E9]/100 p-6 rounded-xl transition">
+  <button onClick={onClick} className="flex flex-col items-center gap-2 bg-[#E9E9E9]/50  hover:bg-[#E9E9E9]/100 p-6 rounded-xl transition border-2 border-gray-200">
     {icon}
     <span className="text-[18px]">{label}</span>
   </button>

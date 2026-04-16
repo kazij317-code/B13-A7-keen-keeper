@@ -3,7 +3,7 @@ import toast, { Toaster } from 'react-hot-toast';
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import FriendDetails from "./pages/FriendDetails";
-import Timeline from "./pages/Timeline";
+import Timeline from "./pages/Timeline"; 
 import Stats from "./pages/Stats";
 import './App.css'
 import Footer from "./components/Footer";
@@ -13,7 +13,7 @@ function App() {
   return (
     // <BrowserRouter>
     <HashRouter>
-      <div className="min-h-screen bg-[#E9E9E9] font-sans text-gray-900">
+      <div className="min-h-screen bg-[#e9e9e96e] font-sans text-gray-900">
         <Toaster position="top-right" />
         <Navbar />
         <Routes>
@@ -26,7 +26,7 @@ function App() {
             <p className="text-xl text-gray-500 mt-4">Oops! This page doesn't exist.</p>
           </div>} />
         </Routes>
-        <Footer />
+        <Footer/>
       </div>
     </HashRouter>
     // </BrowserRouter>
