@@ -34,13 +34,13 @@ const FriendDetails = () => {
     localStorage.setItem('timeline', JSON.stringify([entry, ...existing]));
 
     setRefresh(!refresh);
-    toast.success(`Logged ${type} with ${friend.name}!`);
+    toast.success(`${type} with ${friend.name}!`);
   };
 
   if (!friend) return <div className="p-10 text-center">Friend not found</div>;
 
   return (
-    <div className="max-w-6xl mx-auto p-6 grid grid-cols-1 lg:grid-cols-12 gap-8">
+    <div className="max-w-6xl mx-auto p-6 grid grid-cols-1 lg:grid-cols-12 gap-8 my-12">
       {/* Left Column */}
       <div className="lg:col-span-4 space-y-6">
         <div className="bg-white p-6 rounded-xl border-2 border-gray-200 text-center">
@@ -173,7 +173,7 @@ const StatMini = ({ label, value }) => (
 );
 
 const CheckInBtn = ({ icon, label, onClick }) => (
-  <button onClick={onClick} className="flex flex-col items-center gap-2 bg-[#E9E9E9]/50  hover:bg-[#E9E9E9]/100 p-6 rounded-xl transition border-2 border-gray-200">
+  <button onClick={onClick} className="flex flex-col items-center gap-2 bg-[#E9E9E9]/50  hover:bg-[#E9E9E9] p-6 rounded-xl transition border-2 border-gray-200">
     {icon}
     <span className="text-[18px]">{label}</span>
   </button>

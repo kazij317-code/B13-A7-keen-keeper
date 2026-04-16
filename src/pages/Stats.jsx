@@ -15,8 +15,8 @@ const Stats = () => {
   const COLORS = [ '#7E35E1', '#244D3F', '#37A163'];
 
   return (
-    <div className="max-w-4xl mx-auto p-6">
-      <h2 className="text-[48px] font-bold mb-8">Friendship Analytics</h2>
+    <div className="max-w-4xl mx-auto p-6 my-6">
+      <h2 className="text-[45px] font-bold mb-8">Friendship Analytics</h2>
       
       <div className="bg-white p-8 rounded-xl border-2 border-gray-200">
         <h3 className="text-xl font-medium mb-6 text-[#244D3F]">By Interaction Type</h3>
