@@ -1,6 +1,18 @@
-# 🌐 Keen Keeper Portfolio
+# 📚 Keen Keeper – Book Management Platform
 
-**Keen Keeper** is a modern portfolio web application where users can explore projects, view detailed information, and experience a clean, responsive UI built with modern web technologies.
+A modern and responsive book management web application that allows users to explore, organize, and manage their reading collection. Built with React.js and modern frontend technologies, Keen Keeper provides an intuitive user experience for tracking books, managing reading lists, and discovering new content.
+
+---
+
+## 🌐 Live Demo
+
+🔗 https://kazij317-code.github.io/B13-A7-keen-keeper/
+
+---
+
+## 📂 GitHub Repository
+
+🔗 https://github.com/kazij317-code/B13-A7-keen-keeper
 
 ---
 
@@ -10,127 +22,217 @@
 
 ---
 
-## ⚙️ Tech Stack
-
-* Next.js (App Router)
-* React.js
-* Tailwind CSS
-* JavaScript (ES6+)
-
----
-
 ## ✨ Main Features
 
-* 📁 Project showcase with dynamic routing
-* 🔍 View detailed project information
-* ⚡ Fast performance using Next.js
-* 📱 Fully responsive design
-* 🎨 Clean and modern UI
+### 📖 Book Collection Management
+
+- Browse available books
+- View detailed book information
+- Organize personal reading collection
+- User-friendly book management system
+
+### 🔍 Search & Filtering
+
+- Search books by title
+- Filter books by category
+- Easy navigation and discovery
+
+### 📚 Reading List Features
+
+- Add books to reading list
+- Track reading progress
+- Manage favorite books
+
+### 🎨 Modern User Interface
+
+- Clean and intuitive design
+- Responsive layout for all devices
+- Interactive user experience
+
+### ⚡ Performance Optimization
+
+- Fast page loading
+- Optimized React components
+- Smooth user interactions
 
 ---
 
-## 📦 Dependencies
+## 🛠️ Tech Stack
 
-* next
-* react
-* react-dom
-* tailwindcss
+### Frontend
+
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Tailwind CSS
+
+### Libraries & Tools
+
+- React Router
+- React Icons
+- Local Storage API
+- Git & GitHub
+
+### Deployment
+
+- GitHub Pages
 
 ---
 
-## 🚀 Run Locally
+## 📦 Key NPM Packages
 
-Follow these steps to run the project on your local machine:
-
-### 1️⃣ Clone the repository
-
+```bash
+react
+react-dom
+react-router-dom
+react-icons
+tailwindcss
 ```
+
+---
+
+## 🚀 Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
 git clone https://github.com/kazij317-code/B13-A7-keen-keeper.git
 ```
 
-### 2️⃣ Go to project folder
+### 2. Navigate to the Project Directory
 
-```
+```bash
 cd B13-A7-keen-keeper
 ```
 
-### 3️⃣ Install dependencies
+### 3. Install Dependencies
 
-```
+```bash
 npm install
 ```
 
-### 4️⃣ Run the project
+### 4. Start Development Server
 
-```
+```bash
 npm run dev
 ```
 
-### 5️⃣ Open in browser
+### 5. Build for Production
 
-```
-http://localhost:3000
+```bash
+npm run build
 ```
 
 ---
 
-## 🔗 Relevant Links
+## 🔑 Environment Variables
 
-* 🌐 Live Site: https://kazij317-code.github.io/B13-A7-keen-keeper/
-* 💻 GitHub Repo: https://github.com/kazij317-code/B13-A7-keen-keeper
+This project does not require environment variables.
+
+If future integrations are added (such as APIs or authentication services), create a `.env` file and store sensitive information securely.
 
 ---
 
-## 📌 Future Improvements
+## 👤 Demo Access
 
-* 🔐 Add authentication system
-* 🗄️ Connect with database (MongoDB)
-* 🖼️ Upload and manage projects dynamically
-* 🌍 Deploy with full backend support
+No login credentials are required.
+
+The application is publicly accessible.
+
+---
+
+## 🧪 Testing Notes
+
+### Functional Testing
+
+✅ Browse books
+
+✅ View book details
+
+✅ Add books to reading list
+
+✅ Navigate between pages
+
+### Responsive Testing
+
+✅ Mobile devices
+
+✅ Tablets
+
+✅ Desktop browsers
+
+### User Experience Testing
+
+✅ Navigation functionality
+
+✅ Interactive UI elements
+
+✅ Layout consistency
+
+---
+
+## 📁 Project Structure
+
+```text
+B13-A7-keen-keeper/
+│
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── layouts/
+│   ├── routes/
+│   ├── utilities/
+│   └── main.jsx
+│
+├── package.json
+└── README.md
+```
+
+---
+
+## 🚀 Future Improvements
+
+- User authentication system
+- Cloud database integration
+- Personalized recommendations
+- Advanced search and filtering
+- Book reviews and ratings
+- Reading statistics dashboard
+- Dark mode support
+- Book wishlist functionality
 
 ---
 
 ## 👨‍💻 Author
 
-**Kazi Jamshed Alam**
+### Kazi Jamshed Alam (Mithu)
+
+Frontend Developer | MERN Stack Developer
+
+📧 Email: kazij317@gmail.com
+
+🌐 Portfolio:
+https://kazi-jamshed-alam-portfolio-website.vercel.app
+
+💼 LinkedIn:
+https://www.linkedin.com/in/kazi-jamshed-alam
+
+🐙 GitHub:
+https://github.com/kazij317-code
 
 ---
 
+## 🤝 Contributing
 
-<!-- ------------------------------------------------------- -->
-# 👥 KeenKeeper
+Contributions, suggestions, and feedback are welcome.
 
-## 📖 Project Name
-KeenKeeper
-
----
-
-## 📝 Short Description
-KeenKeeper is a simple and responsive React-based web application designed to help users keep track of their friendships and interactions. Users can search, filter, and sort their timeline of activities easily.
+Feel free to fork the repository, create a feature branch, and submit a pull request.
 
 ---
 
-## 🛠 Technologies Used
-- React.js
-- React Router DOM
-- Context API
-- Tailwind CSS
-- DaisyUI
-- React-hot-toast
-- Lucide React Icons
-- JavaScript (ES6+)
-- Recharts
+## ⭐ Support
 
----
-
-## ✨ Key Features
-
-### 🔍 1. Smart Search
-Users can search timeline entries by friend name or interaction type (Call, Text, Video).
-
-### 🔽 2. Filter System
-Filter timeline activities based on interaction type for better organization.
-
-### ⏱ 3. Sort Timeline
-Sort all activities by newest or oldest to quickly view recent or past interactions.
-
+If you found this project useful, please consider giving it a star on GitHub.
